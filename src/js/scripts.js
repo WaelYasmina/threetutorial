@@ -6,7 +6,7 @@ import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader.js';
 import nebula from '../img/nebula.jpg';
 import stars from '../img/stars.jpg';
 
-const monkeyUrl = new URL('../assets/zzz.glb', import.meta.url);
+const monkeyUrl = new URL('../assets/monkey.glb', import.meta.url);
 
 const renderer = new THREE.WebGLRenderer();
 
